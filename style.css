@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding:5px;
+}
+
+.center{
+    text-align: center;
+}
+.large{
+    font-size: 60px;
+}
+
+body {
+    background-color:rgb(255, 0, 0);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+    
+}
+
+h1 
+{
+    color: rgb(255, 255, 255);  
+    font-size: 30px; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow:black 1px 2px;
+}
+
+h2 {
+    color:rgb(255, 255, 255) ; 
+    font-family:Arial, Helvetica, sans-serif; 
+    text-shadow:black 1px 2px;
+}
+
+h3 { 
+    color:aqua ;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow:black 1px 2px;
+    }
+
+p{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow:black 1px 2px;
+}
+
+
+#enjoy_classic_italian_food{
+    color: crimson;
+    letter-spacing: 2cap;
+    font-size: large;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#navbar a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    padding:15px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30cqw;
+    border-style:double;
+    border-color:rgb(0, 0, 0);
+}
+
+#navbar a:hover{
+    color:rgb(255, 0, 0);
+    font-weight:bold;
+}
+
+.mancr{
+    width:50%;
+}
+
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    width:auto;
+}
+
+.specific-page {
+    background-image: url(jakub-kapusnak-tEVisOXz26Y-unsplash-scaled.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
